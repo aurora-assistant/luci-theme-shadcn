@@ -1,8 +1,7 @@
 <h4 align="right"><strong>English</strong> | <a href="README_zh.md">简体中文</a></h4>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/eamonxg/assets/master/shadcn/logo/logo.svg" width="96"/>
+    <img src="https://raw.githubusercontent.com/eamonxg/assets/master/shadcn/logo/logo-lockup.png" width="360" alt="Shadcn LuCI Theme"/>
 </p>
-<h1 align="center">Shadcn LuCI Theme</h1>
 <p align="center"><strong>A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.</strong></p>
 <h4 align="center">🗂️ Sidebar Layout | 🌗 Dark / Light Mode | 📱 Mobile Drawer</h4>
 <div align="center">

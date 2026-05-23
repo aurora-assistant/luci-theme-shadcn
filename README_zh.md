@@ -1,8 +1,7 @@
 <h4 align="right"><a href="README.md">English</a> | <strong>简体中文</strong></h4>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/eamonxg/assets/master/shadcn/logo/logo.svg" width="96"/>
+    <img src="https://raw.githubusercontent.com/eamonxg/assets/master/shadcn/logo/logo-lockup.png" width="360" alt="Shadcn LuCI Theme"/>
 </p>
-<h1 align="center">Shadcn LuCI Theme</h1>
 <p align="center"><strong>一款基于 shadcn/ui 设计语言构建的现代侧边栏 OpenWrt LuCI 主题。</strong></p>
 <h4 align="center">🗂️ 侧边栏布局 | 🌗 深色/浅色模式 | 📱 移动端抽屉</h4>
 <div align="center">
