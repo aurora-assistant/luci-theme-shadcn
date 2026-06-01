@@ -68,7 +68,13 @@ return baseclass.extend({
 
     const toggleBtn = document.getElementById("sidebar-toggle-btn");
     if (toggleBtn) {
-      toggleBtn.addEventListener("click", () => this.toggleCollapse());
+      toggleBtn.addEventListener("click", () => {
+        if (window.innerWidth <= 768) {
+          this.closeDrawer();
+        } else {
+          this.toggleCollapse();
+        }
+      });
     }
 
     this._initAccordion();
