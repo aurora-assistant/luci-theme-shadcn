@@ -33,6 +33,14 @@
     @apply whitespace-nowrap;
   }
 
+  .fade-in {
+    @apply animate-in fade-in-0 fill-mode-backwards duration-400;
+  }
+
+  .fade-out {
+    @apply pointer-events-none opacity-0 transition-opacity duration-400;
+  }
+
   .spinning {
     @apply relative !pl-7;
     @apply before:absolute before:left-1.5 before:top-1/2 before:size-4 before:-translate-y-1/2 before:animate-spin before:bg-current before:[mask-image:url('@assets/icons/loader-2.svg')] before:[mask-position:center] before:[mask-repeat:no-repeat] before:[mask-size:cover];
