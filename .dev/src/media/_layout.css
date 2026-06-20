@@ -349,6 +349,18 @@ span[data-indicator] {
     @apply border-border mt-4 flex flex-wrap items-center justify-end gap-2 border-t pt-4;
   }
 
+  /* Channel-analysis chart (#channel_graph) hardcodes a white bg + black grid
+     lines inline; recolor for dark mode. */
+  & div[style] {
+    > svg {
+      @apply dark:!bg-surface;
+
+      & line[style] {
+        @apply dark:!stroke-text;
+      }
+    }
+  }
+
   .zone-forwards {
     @apply flex items-start gap-3 leading-relaxed;
     > span {
