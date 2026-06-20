@@ -169,6 +169,7 @@ html[data-sidebar-collapsed="true"] #sidebar {
 
 .sidebar-footer {
   @apply border-sidebar-border shrink-0 border-t p-2;
+  @apply pb-[max(0.5rem,env(safe-area-inset-bottom))];
 }
 
 .sidebar-logout {
@@ -398,9 +399,9 @@ span[data-indicator] {
 /* ── Mobile sidebar overlay ───────────────────────────────────────── */
 
 #sidebar-overlay {
-  @apply bg-overlay-base-a50 pointer-events-none fixed inset-0 z-30 opacity-0 transition-opacity duration-200 md:hidden;
+  @apply bg-overlay-base-a50 pointer-events-none invisible fixed inset-0 z-30 opacity-0 transition-[opacity,visibility] duration-200 md:hidden;
 
   &.active {
-    @apply pointer-events-auto opacity-100;
+    @apply pointer-events-auto visible opacity-100;
   }
 }
