@@ -136,7 +136,13 @@ html[data-sidebar-collapsed="true"] #sidebar {
 }
 
 .sidebar-sub-list {
-  @apply border-sidebar-border ml-4 list-none border-l py-1 pl-2;
+  @apply border-sidebar-border ml-4 list-none py-1 pl-2;
+}
+
+.sidebar-accordion-item[data-open="true"]
+  > .sidebar-accordion-sub
+  .sidebar-sub-list {
+  @apply border-l;
 }
 
 .sidebar-sub-item {
