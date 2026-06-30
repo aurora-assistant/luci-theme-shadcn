@@ -7,7 +7,7 @@
 {%
 	import { getuid, getspnam } from 'luci.core';
 
-	const boardinfo = ubus.call('system', 'board');
+	const boardinfo = ubus.call('system', 'board') ?? {};
 	const rootsp = getspnam('root');
 	const root_pw_unset = (rootsp && rootsp.pwdp == '');
 
